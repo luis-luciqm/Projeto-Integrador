@@ -24,6 +24,7 @@
     color: rgb(97, 93, 93);
 }
 
+
 .nav-link:hover {
     color: black;
 }
@@ -71,8 +72,9 @@ nav {
 }
 
 .card:hover{
-    width: 16.1rem;
-    transition-duration: 200ms;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 h4 {
@@ -690,10 +692,17 @@ form h2 {
     border-radius: 8px;
 }
 
-/* #corpo{
-    background: url("../../images/walpaper.jpg") !important; */
+#corpo-listagem{
+    background-color: #FFFAFA !important;
 }
 
+#corpo{
+    background-color: #FFFAFA !important;
+}
+
+body{
+    background-color: #FFFAFA !important;
+}
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
