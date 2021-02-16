@@ -52,11 +52,11 @@
     <!-- FIM NAVBAR -->
 
     <br><h4>Para anunciar imóveis, preencha corretamente os dados abaixo!</h4>
-
+    <!-- INICIO ANUNCIO -->
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">
             <div id="formContent">
-                <form name="anuncioImoveis" method="POST"> <!--action="dashboard.php"-->
+                <form name="anuncioImoveis" method="POST" onsubmit="return validarCampos();"> <!--action="dashboard.php"-->
                     <br><h5>Dados Pessoais</h5><hr>
                     <p class="text-one-board">Nome do Anunciante</p>
                     <p class="obrigatorio">*</p>
@@ -94,6 +94,7 @@
             </div>
         </div>
     </div>
+    <!-- FIM ANUNCIO -->
 
     <!-- INICIO RODAPE -->
     <footer id="myFooter">

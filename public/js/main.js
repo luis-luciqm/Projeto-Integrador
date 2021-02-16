@@ -16,10 +16,10 @@ function maskCelular(input){
 
 function validarCampos(){
     var estado = true;
-    // var senha = document.forms["validar"]["senha"].value.trim();
-    // var confirmarSenha = document.forms["validar"]["csenha"].value.trim();
-    var senha = document.validar.senha.value.trim();
-    var confirmarSenha = document.validar.csenha.value.trim();
+    var senha = document.forms["validar"]["senha"].value.trim();
+    var confirmarSenha = document.forms["validar"]["csenha"].value.trim();
+    // var senha = document.validar.senha.value.trim();
+    // var confirmarSenha = document.validar.csenha.value.trim();
 
     if(senha != confirmarSenha){
         document.getElementById("msgErro").innerHTML = "Senhas diferentes!";
@@ -35,7 +35,10 @@ function validarCampos(){
 
     if(estado) document.getElementById("msgErro").innerHTML = "";
     // console.log()
-    if(verificaEspaco()) alert("Preencha todos os campos!"); 
+    if(verificaEspaco()){ 
+        alert("Preencha todos os campos!");
+        estado = false; 
+    }
 
     return estado;
 }
