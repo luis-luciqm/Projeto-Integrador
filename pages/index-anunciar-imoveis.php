@@ -56,7 +56,7 @@
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">
             <div id="formContent">
-                <form name="anuncioImoveis" method="POST" onsubmit="return validarCampos();"> <!--action="dashboard.php"-->
+                <form name="anuncioImoveis" method="POST" onsubmit="return validateAnuncio();"> <!--action="dashboard.php"-->
                     <br><h5>Dados Pessoais</h5><hr>
                     <p class="text-one-board">Nome do Anunciante</p>
                     <p class="obrigatorio">*</p>
@@ -64,7 +64,7 @@
                     
                     <p class="text-one-board">Celular</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" maxlength="18" required><br><br>
+                    <input type="text" id="celular" class="fadeIn second zero-raduis" name="celular" placeholder="+99 (99) 9.9999-9999" onkeypress="maskCelular(this)" maxlength="18" required><br><br>
 
                     <p class="text-one-board">Email</p>
                     <p class="obrigatorio">*</p>
@@ -89,6 +89,8 @@
                     <p class="obrigatorio">*</p><br>
                    
                     <input type="text" id="tipo-imovel" class="fadeIn second zero-raduis" name="tipo-imovel" placeholder="Casa, Apartamento, Fazenda, Hotel" required><br><br>
+                    <p id="msgErro"></p>
+
                     <input type="submit" class="fadeIn fourth zero-raduis" value="anunciar">
                 </form>
             </div>

@@ -36,11 +36,42 @@ function validarCampos(){
     if(estado) document.getElementById("msgErro").innerHTML = "";
     // console.log()
     if(verificaEspaco()){ 
-        alert("Preencha todos os campos!");
+        document.getElementById("msgErro").innerHTML = "POR FAVOR, PREENCHA TODOS OS CAMPOS!";
         estado = false; 
     }
-
     return estado;
+}
+
+function senhaLoginInvalida(){
+    var senha = document.forms["validarLogin"]["senhaLogin"].value.trim();
+    if(senha == ""){
+        document.getElementById("msgErro").innerHTML = "POR FAVOR, PREENCHA TODOS OS CAMPOS!";
+        return false;
+    }
+    return true;
+
+}
+
+function validateAnuncio(){
+    var state = true;
+    var emBranco = [
+        document.forms["anuncioImoveis"]["nome"].value.trim(),
+        document.forms["anuncioImoveis"]["celular"].value.trim(),
+        document.forms["anuncioImoveis"]["email"].value.trim(),
+        document.forms["anuncioImoveis"]["endereco"].value.trim(),
+        document.forms["anuncioImoveis"]["tipo-imovel"].value.trim()
+    ]
+
+    for(var i = 0; i < emBranco.length; i++){
+        console.log(emBranco[i])
+        if(emBranco[i] == ""){
+            state = false;
+            document.getElementById("msgErro").innerHTML = "POR FAVOR, PREENCHA TODOS OS CAMPOS!";
+            return state;
+        }
+    }
+    state = true;
+    return state;
 }
 
 function verificaEspaco(){
