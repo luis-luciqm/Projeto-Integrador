@@ -1,0 +1,701 @@
+.image-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-text:hover {
+    color: black;
+    cursor: pointer;
+    transition-duration: 950ms;
+}
+
+.imgEmail{
+    width: 40px;
+    height: 30px;
+}
+
+#Carrossel {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-link {
+    color: rgb(97, 93, 93);
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-text {
+    margin-right: 0px;
+}
+
+.navbar-text:hover {
+    color: black;
+}
+
+nav {
+    background-color: #E4D4C8;
+    color: rgb(97, 93, 93);
+    /*border-bottom: 1px solid black;*/
+}
+
+.d-block.w-100 {
+    height: 500px;
+}
+
+.mb-3 {
+    float: left;
+    width: 90%;
+}
+
+.btn.btn-primary {
+    float: right;
+}
+
+#location {
+    text-align: center;
+}
+
+#pesquisa {
+    text-align: center;
+}
+
+.card {
+    width: 16rem;
+    margin-left: 13.8px;
+    float: left;
+    /* border: 1px solid rgb(109, 109, 109) !important; */
+}
+
+.card:hover{
+    width: 16.1rem;
+    transition-duration: 200ms;
+}
+
+h4 {
+    text-align: center;
+}
+
+#myFooter {
+    background-color: #A47551;
+    color: white;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info {
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo {
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a {
+    color: white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float: right;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .info {
+        text-align: center;
+    }
+}
+
+.col-sm-3.development {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+
+html {
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ads {
+    margin-left: 20%;
+    width: 80%;
+}
+
+.img-ads {
+    height: 268px;
+}
+
+#txt-ads {
+    float: left;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button-ads {
+    width: 140px !important;
+}
+
+main {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background-color: white;
+}
+
+.content {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+#fim {
+    background-color: #523A28;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.active {
+    color: black;
+}
+
+
+/* ESTILO TELA LOGIN */
+
+.zero-raduis {
+    border-radius: 0px !important;
+}
+
+a {
+    color: #92badd;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #212529;
+}
+
+
+/* STRUCTURE */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+#formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#formFooter {
+    padding: 2px;
+    text-align: right;
+    width: 90%;
+}
+
+
+/* TABS */
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #a68c69;
+    border: none;
+    color: white;
+    width: 85%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #63523c;
+}
+
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+input[type=text],
+input[type=email] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 95%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #a68c69;
+}
+
+input[type=text]:placeholder,
+input[type=email]:placeholder {
+    color: #cccccc;
+}
+
+
+/* ANIMATIONS */
+
+
+/* Simple CSS3 Fade-in-down Animation */
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+
+/* Simple CSS3 Fade-in Animation */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+
+/* Simple CSS3 Fade-in Animation */
+
+.underlineHover:after {
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #a68c69;  /*esqueceu a senha underline*/
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlineHover:hover {
+    color: #0d0d0d;
+}
+
+.underlineHover:hover:after {
+    width: 100%;
+}
+
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+}
+
+#icon {
+    width: 30%;
+}
+
+.form-control-teste {
+    margin: 50px !important;
+}
+
+.imagem-login {
+    /* width: 380px !important;
+    height: 120px !important;*/
+    margin-left: auto !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+form h2 {
+    color: black;
+}
+
+.underlineHover {
+    color: black;
+}
+
+.navbar-text {
+    color: rgb(97, 93, 93);
+}
+
+.text-one-board {
+    float: left;
+    margin-left: 30px;
+}
+
+.obrigatorio {
+    float: left;
+    margin-left: 2.9px;
+    color: red;
+}
+
+
+/* input[type=text], input[type=email] {
+  width: 170% !important;
+} */
+
+
+/* FIM ESTILO TELA LOGIN */
+
+#msgErro {
+    color: red;
+}
+
+/* Inico Alugueis Disponiveis */
+.init-cards{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card-image{
+    grid-area: image;
+    background: url("https://www.casamineira.com.br/blog/wp-content/uploads/2017/05/apartamento-a-venda-600mil-2.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text{
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text .date{
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+
+.cardtext p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(255, 7, 110);
+}
+
+.card-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.card-stats .type{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-stats .value{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-stats .border{
+    border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(172, 26, 87);
+}
+
+.card-stats .value sup{
+    font-size: 12px;
+}
+
+.card-card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px black;
+}
+
+/* Tela listagem */
+
+#listagem{
+    margin: 20px !important;
+    padding: 0px !important
+}
+
+
+.btn.btn-primary.btn-sm{
+    border-radius: 8px;
+}
+
+.btn.btn-secondary.btn-sm{
+    border-radius: 8px;
+}
+
+/* #corpo{
+    background: url("../../images/walpaper.jpg") !important; */
+}
+
+/* #corpo-listagem{
+    background-color: #F5FFFA;
+} */
+
+/*Fim alugueis disponiveis*/
