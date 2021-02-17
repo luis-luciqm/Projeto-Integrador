@@ -88,7 +88,12 @@
                     <br><p class="text-one-board">Tipo de Imóvel</p>
                     <p class="obrigatorio">*</p><br>
                    
-                    <input type="text" id="tipo-imovel" class="fadeIn second zero-raduis" name="tipo-imovel" placeholder="Casa, Apartamento, Fazenda, Hotel" required><br><br>
+                    <input type="text" id="tipo-imovel" class="fadeIn second zero-raduis" name="tipo-imovel" placeholder="Casa, Apartamento, Fazenda, Hotel" required><br>
+                    
+                    <br><p class="text-one-board">Faça uma breve descrição do Imóvel (Opcional)</p>
+                    <!-- <p class="obrigatorio">*</p><br> -->
+                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Ex: Casa com 2 salas, 3 quartos climatizados, próximo ao IFRN Pau do Ferros"></textarea>
+                                        
                     <p id="msgErro"></p>
 
                     <input type="submit" class="fadeIn fourth zero-raduis" value="anunciar">

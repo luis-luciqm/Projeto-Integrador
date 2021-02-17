@@ -704,6 +704,14 @@ form h2 {
 body{
     background-color: #FFFAFA !important;
 }
+
+textarea {
+    resize: none;
+    width: 370px;
+    height: 80px;
+    border-radius: 10px;
+}
+
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
