@@ -27,8 +27,9 @@
                 <img class="image-logo" src="images/favicon.png" href="index.php" alt="Imagem da logo">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -62,7 +63,7 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://wikihaus.com.br/nowall/wp-content/uploads/2018/08/WIK_NOWALL_14_PENTHOUSE_VISUALIZACAO.jpg" class="d-block w-100" alt="Imagem do Carrossel">
+                    <img src="images/carrossel.jpg" class="d-block w-100" alt="Imagem do Carrossel">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Interior Imóveis</h5>
                         <p>Se você busca um apartamento para alugar, é aqui que encontra-se!</p>
@@ -70,7 +71,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="https://wikihaus.com.br/nowall/wp-content/uploads/2018/08/WIK_NOWALL_14_PENTHOUSE_VISUALIZACAO.jpg" class="d-block w-100" alt="Imagem do Carrossel">
+                    <img src="images/carrossel.jpg" class="d-block w-100" alt="Imagem do Carrossel">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Interior Imóveis</h5>
                         <p>Pau dos Ferros/RN</p>
@@ -78,7 +79,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="https://wikihaus.com.br/nowall/wp-content/uploads/2018/08/WIK_NOWALL_14_PENTHOUSE_VISUALIZACAO.jpg" class="d-block w-100" alt="Imagem do Carrossel">
+                    <img src="images/carrossel.jpg" class="d-block w-100" alt="Imagem do Carrossel">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Interior Imóveis</h5>
                         <p>Anuncie, Alugue, ou compre. Quem decide é você!</p>
