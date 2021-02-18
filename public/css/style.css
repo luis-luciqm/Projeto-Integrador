@@ -710,6 +710,7 @@ textarea {
     width: 87%;
     height: 20%;
     border-radius: 10px;
+    border: 1.7px solid black;
 }
 
 /* #corpo-listagem{

@@ -18,8 +18,6 @@ function validarCampos(){
     var estado = true;
     var senha = document.forms["validar"]["senha"].value.trim();
     var confirmarSenha = document.forms["validar"]["csenha"].value.trim();
-    // var senha = document.validar.senha.value.trim();
-    // var confirmarSenha = document.validar.csenha.value.trim();
 
     if(senha != confirmarSenha){
         document.getElementById("msgErro").innerHTML = "Senhas diferentes!";
@@ -59,7 +57,8 @@ function validateAnuncio(){
         document.forms["anuncioImoveis"]["celular"].value.trim(),
         document.forms["anuncioImoveis"]["email"].value.trim(),
         document.forms["anuncioImoveis"]["endereco"].value.trim(),
-        document.forms["anuncioImoveis"]["tipo-imovel"].value.trim()
+        document.forms["anuncioImoveis"]["tipo-imovel"].value.trim(),
+        document.forms["anuncioImoveis"]["preco"].value.trim()
     ]
 
     for(var i = 0; i < emBranco.length; i++){
@@ -70,12 +69,18 @@ function validateAnuncio(){
             return state;
         }
     }
-    state = true;
-    return state;
+
+    if(Checkfiles()){
+        state = true;
+        return state;
+    }
+    // senão
+    document.getElementById("msgErro").innerHTML = "As imagens devem ter o formato: <br> '.jpg', '.png' ou '.jpeg'!";
+    return false;
 }
 
 function verificaEspaco(){
-    var campoEmBranco = [
+    var campoEmBranco = [ // pegando os valores dos campos
         document.forms["validar"]["nome"].value.trim(),
         document.forms["validar"]["endereco"].value.trim(),
         document.forms["validar"]["cep"].value.trim(),
@@ -86,7 +91,7 @@ function verificaEspaco(){
     ]
 
     var tamEmail = campoEmBranco[4].length;
-    if(tamEmail > 80){
+    if(tamEmail > 80){ // Evitando ataques DDOS
         alert("Não é permitido inserir mais de 80 caracteres em Email! Por favor, use um email menor.")
         return true;
     }
@@ -110,4 +115,15 @@ function senhaPequenaLogin(){
 
     if(!status) document.getElementById("msgErro").innerHTML = "";
     return status;
+}
+
+function Checkfiles(){
+    var fup = document.getElementById('inputImagem');
+    var fileName = fup.value;
+    var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
+
+    if(ext == "jpeg" || ext == "png" || ext == "jpg"){
+        return true; // se obedecer o formato retorna true
+    }
+    return false; // se não cair no if, cai aqui (else)
 }

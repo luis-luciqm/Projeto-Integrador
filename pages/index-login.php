@@ -77,7 +77,7 @@
                 <form method="POST" action="index-cadastro.php">
                     <hr>
                     <h2>Não tem uma conta? Registre-se!</h2>
-                    <input type="submit" id="btnCadastro" value="Criar Conta" class="fadeIn fourth zero-raduis pc">
+                    <input type="submit" id="btnCadastro" value="CADASTRAR-SE" class="fadeIn fourth zero-raduis pc">
                 </form>
             </div>
         </div>

@@ -100,7 +100,6 @@
 
                     <br><p class="text-one-board">Faça uma breve descrição do Imóvel (Opcional)</p>
                     <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Ex: Casa com 2 salas, 3 quartos climatizados, próximo ao IFRN Pau do Ferros"></textarea>
-                                        
                     <p id="msgErro"></p>
 
                     <input type="submit" class="fadeIn fourth zero-raduis" value="anunciar">
