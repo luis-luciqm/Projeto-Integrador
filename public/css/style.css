@@ -707,8 +707,8 @@ body{
 
 textarea {
     resize: none;
-    width: 370px;
-    height: 80px;
+    width: 87%;
+    height: 20%;
     border-radius: 10px;
 }
 

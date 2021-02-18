@@ -74,7 +74,7 @@
         
         <hr>
         <div id="list" class="row">
-            <?php for($i = 1; $i <= 4; $i++){ ?>
+            <?php for($i = 1; $i <= 10; $i++){ ?>
                 <!-- <hr /> -->
                 <div class="table-responsive col-md-12">
                     <table class="table table-striped" cellspacing="0" cellpadding="0">

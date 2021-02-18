@@ -60,7 +60,7 @@
 
                 <div class="fadeIn first">
                     <br>
-                    <img class="imagem-login" src="../images/Sem título.png">
+                    <img class="imagem-login" src="../images/Sem título.png" alt="Imagem de Logo">
                     <br>
                     <br>
                 </div>
@@ -72,7 +72,7 @@
                         <a class="underlineHover" href="#">Esqueceu a senha?</a>
                     </div>
                     <p id="msgErro"></p>
-                    <input type="submit" class="fadeIn fourth zero-raduis" value="login">
+                    <input type="submit" class="fadeIn fourth zero-raduis" value="Entrar">
                 </form>
                 <form method="POST" action="index-cadastro.php">
                     <hr>
