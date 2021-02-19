@@ -329,7 +329,7 @@ input[type=reset] {
     width: 85%;
     padding: 10px 25px;
     text-align: center;
-    border-radius: 18px !important; /* provavelmente tirar isso aq */
+    border-radius: 7px !important; /*provavelmente tirar isso aq*/
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
