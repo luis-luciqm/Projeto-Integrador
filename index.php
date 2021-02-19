@@ -119,7 +119,7 @@
         <p id="location" class="form-label">Alugueis Próximos a {Localização.do.individuo}</p>
         <?php for($i = 0; $i < 4; $i++){ ?>
             <div class="card">
-                <img src="https://image.freepik.com/vetores-gratis/contemporaneo-sala-interior-vazio-ninguem-home-apartamento-moderno-horizontal_48369-28669.jpg" class="card-img-top" alt="Pŕoximos a sua Localização">
+                <img src="images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                 <div class="card-body">
                     <h5 class="card-title">Apartamento</h5>
                     <p class="card-text">Apartamento com 3 quartos, sala de estar, 2 banheiros e cozinha.</p>
@@ -130,7 +130,7 @@
                 </ul>
                 <div class="card-body">
                     <a href="#" class="btn btn-primary btn-sm">Telefone</a>
-                    <a href="#" class="btn btn-secondary btn-sm">Email</a>
+                    <a href="mailto:teste@gmail.com" class="btn btn-secondary btn-sm">Email</a>
                 </div>
             </div>
         <?php } ?>
