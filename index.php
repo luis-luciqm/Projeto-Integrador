@@ -140,7 +140,7 @@
 
     <!-- Inicio abrir chamado -->
     <br><h2>Não encontrou nada que procura? Faça uma solicitação!</h2>
-    <form action="index-solicitar.php">
+    <form action="index-solicitar.php" method="POST">
         <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
     </form>
     <!-- FIM abrir chamado -->
@@ -182,8 +182,6 @@
     <div id="fim">
         <p>©2021. All Rights Reserved. InteriorImoveis®</p>
     </div>
-    <!--{# <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> #}-->
     <!-- FIM RODAPE -->
 </body>
 
