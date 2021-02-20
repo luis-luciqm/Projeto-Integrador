@@ -44,7 +44,7 @@
 
     <br><h4>Organize e visualize seus dados</h4><br>
 
-    <div class="card" style="width: 18rem; margin-left: 5%; margin-top: 5%;">
+    <div class="card" style="background-color: #87CEEB; width: 18rem; margin-left: 5%; margin-top: 5%;">
         <div class="card-header">
             Total de Anúncios
         </div>
@@ -54,7 +54,7 @@
     </div>
 
 
-    <div class="card" style="width: 25rem; margin-left: 5%; margin-top: 5%;">
+    <div class="card" style="background-color: #98FB98; width: 25rem; margin-left: 5%; margin-top: 5%;">
         <div class="card-header">
             Meus Anúncios
         </div>
