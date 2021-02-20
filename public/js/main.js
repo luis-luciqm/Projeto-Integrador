@@ -62,7 +62,7 @@ function validateAnuncio(){
     ]
 
     for(var i = 0; i < emBranco.length; i++){
-        console.log(emBranco[i])
+        // console.log(emBranco[i])
         if(emBranco[i] == ""){
             state = false;
             document.getElementById("msgErro").innerHTML = "POR FAVOR, PREENCHA TODOS OS CAMPOS!";
