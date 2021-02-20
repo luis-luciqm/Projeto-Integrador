@@ -617,6 +617,12 @@ textarea {
     border: 1.7px solid black;
 }
 
+#solicitar-imovel{
+    width: 200px !important;
+    height: 45px !important;
+    margin-left: 550px !important;
+}
+
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */

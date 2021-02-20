@@ -75,7 +75,7 @@ function validateAnuncio(){
         return state;
     }
     // senão
-    document.getElementById("msgErro").innerHTML = "Por questões de inviabilidade, as imagens devem possuir a extensão: <br> '.jpg', '.png' ou '.jpeg'!";
+    document.getElementById("msgErro").innerHTML = 'Por questões de inviabilidade, as imagens devem possuir a extensão: ".jpg", ".png" ou ".jpeg"!';
     return false;
 }
 

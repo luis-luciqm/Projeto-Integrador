@@ -35,7 +35,6 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/index-anunciar-imoveis.php">Anunciar Imóveis</a>
                         </li>
@@ -43,6 +42,7 @@
                             <a class="nav-link" href="#">Comprar Imóvel</a>
                         </li>
                     </ul>
+
                     <a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a>
                     <!-- Provavelmente mudar essa tag para button -->
                 </div>
@@ -135,9 +135,16 @@
             </div>
         <?php } ?>
     </div>
-
+    
     <!--FIM DESTAQUES DE LOCALIZAÇÃO-->
-    <br>
+
+    <!-- Inicio abrir chamado -->
+    <br><h2>Não encontrou nada que procura? Faça uma solicitação!</h2>
+    <form action="index-solicitar.php">
+        <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
+    </form>
+    <!-- FIM abrir chamado -->
+
     <!-- INICIO RODAPE -->
     <footer id="myFooter">
         <div class="container">
