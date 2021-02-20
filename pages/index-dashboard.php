@@ -42,35 +42,38 @@
         </nav>
     </header>
 
-    <div class="card" style="width: 18rem; margin-left: 10%; margin-top: 10%;">
-    <div class="card-header">
-        Total de Anuncios
-    </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item" style="text-align: center;">12</li>
-    </ul>
+    <br><h4>Organize e visualize seus dados</h4><br>
+
+    <div class="card" style="width: 18rem; margin-left: 5%; margin-top: 5%;">
+        <div class="card-header">
+            Total de Anúncios
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" style="text-align: center;">5</li>
+        </ul>
     </div>
 
 
-    <div class="card" style="width: 18rem; margin-left: 10%; margin-top: 10%;">
-    <div class="card-header">
-        Meus Anuncios
+    <div class="card" style="width: 25rem; margin-left: 5%; margin-top: 5%;">
+        <div class="card-header">
+            Meus Anúncios
+        </div>
+        <ul class="list-group list-group-flush" style="">
+            <li class="list-group-item">
+                Imóvel 1 
+                <a href="#" class="btn btn-success btn-sm" style="float: right; margin-left: 5rem;">Detalhes</a>
+            </li>
+            <li class="list-group-item">
+                Imovel 2
+                <a href="#" class="btn btn-success btn-sm" style="float: right; margin-left: 5rem;">Detalhes</a>
+            </li>
+            <li class="list-group-item">
+                Imovel 3
+                <a href="#" class="btn btn-success btn-sm" style="float: right; margin-left: 5rem;">Detalhes</a>
+            </li>
+        </ul>
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-            Imovel 1 
-            <a href="#" class="btn btn-success btn-sm" style="margin-left: 5rem;">Detalhes</a>
-        </li>
-        <li class="list-group-item">
-            Imovel 2
-            <a href="#" class="btn btn-success btn-sm" style="margin-left: 5rem;">Detalhes</a>
-        </li>
-        <li class="list-group-item">
-            Imovel 3
-            <a href="#" class="btn btn-success btn-sm" style="margin-left: 5rem;">Detalhes</a>
-        </li>
-    </ul>
-    </div>
+    <br><br>
 
 
 
