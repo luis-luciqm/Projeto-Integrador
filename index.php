@@ -135,12 +135,11 @@
             </div>
         <?php } ?>
     </div>
-    
     <!--FIM DESTAQUES DE LOCALIZAÇÃO-->
-
+    
     <!-- Inicio abrir chamado -->
-    <br><h2>Não encontrou nada que procura? Faça uma solicitação!</h2>
-    <form action="index-solicitar.php" method="POST">
+    <br><br><h2>Não encontrou nada que procura? Faça uma solicitação!</h2>
+    <form action="pages/index-solicitar.php" method="POST">
         <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
     </form>
     <!-- FIM abrir chamado -->
