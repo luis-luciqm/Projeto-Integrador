@@ -48,12 +48,15 @@
             </div>
         </nav>
     </header>
+    <br>
     <!-- FIM NAV-BAR -->
+    <h4>Solicite um imóvel para algum anunciante.</h4>
+    <p>Caso algum anunciante próximo a você veja sua solicitação, ele entrará em contato.</p>
 
-    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!--retirar depois-->
+   <!-- INICIO RODAPE -->
 
-    <!-- INICIO RODAPE -->
-    <footer id="myFooter">
+   <footer id="myFooter">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
