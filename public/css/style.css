@@ -633,6 +633,10 @@ textarea {
 #trecho{
     text-align: center;
 }
+
+#solicitarButton{
+    margin-top: 30px !important;
+}
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
