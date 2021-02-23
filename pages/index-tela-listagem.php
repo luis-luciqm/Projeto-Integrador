@@ -50,7 +50,7 @@
         </nav>
     </header>
     <!-- FIM NAV-BAR -->
-    <br>
+    <!-- <br> -->
     <h4>Listagem de Usuários</h4>
     <div id="listagem">
         <div id="main" class="container-fluid" style="margin-top: 50px">

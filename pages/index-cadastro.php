@@ -51,7 +51,7 @@
     <!-- FIM NAV-BAR -->
 
     <!-- INICO TELA CADASTRO -->
-    <br>
+    <!-- <br> -->
     <h4>Cadastre-se para alugar, ou anunciar um Imóvel</h4>
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">

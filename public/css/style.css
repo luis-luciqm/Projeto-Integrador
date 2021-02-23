@@ -82,6 +82,7 @@ nav {
 
 h4 {
     text-align: center;
+    margin-top: 19.8px !important;
 }
 
 #myFooter {
@@ -629,6 +630,9 @@ textarea {
     margin-left: 550px !important;
 }
 
+#trecho{
+    text-align: center;
+}
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */

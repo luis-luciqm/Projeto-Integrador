@@ -48,10 +48,11 @@
             </div>
         </nav>
     </header>
-    <br>
+    <!-- <br> -->
     <!-- FIM NAV-BAR -->
+
     <h4>Solicite um imóvel para algum anunciante.</h4>
-    <p>Caso algum anunciante próximo a você veja sua solicitação, ele entrará em contato.</p>
+    <p id="trecho">Caso algum anunciante próximo a você veja sua solicitação, ele entrará em contato.</p>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!--retirar depois-->
    <!-- INICIO RODAPE -->

@@ -51,7 +51,7 @@
     <!-- FIM NAV-BAR -->
 
     <!-- INICO TELA LOGIN -->
-    <br>
+    <!-- <br> -->
     <h4>Use uma conta e Faça Login</h4>
 
     <?php

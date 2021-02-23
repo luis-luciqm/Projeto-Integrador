@@ -52,7 +52,7 @@
     <!-- FIM NAV-BAR -->
 
     <!-- INICIO CAROUSEL -->
-    <br><h4>Alugue, Compre e Anuncie seu Imóvel aqui!!</h4><br>
+    <h4>Alugue, Compre e Anuncie seu Imóvel aqui!!</h4><br>
     <div id="Carrossel">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">

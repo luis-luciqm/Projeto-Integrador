@@ -51,7 +51,7 @@
     </header>
     <!-- FIM NAVBAR -->
 
-    <br><h4>Para anunciar imóveis, preencha corretamente os dados abaixo!</h4>
+    <h4>Para anunciar imóveis, preencha corretamente os dados abaixo!</h4>
     <!-- INICIO ANUNCIO -->
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">

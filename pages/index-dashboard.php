@@ -42,7 +42,7 @@
         </nav>
     </header>
 
-    <br><h4>Organize e visualize seus dados</h4><br>
+    <h4>Organize e visualize seus dados</h4><br>
 
     <div class="card" style="background-color: #87CEEB; width: 18rem; margin-left: 5%; margin-top: 5%;">
         <div class="card-header">
