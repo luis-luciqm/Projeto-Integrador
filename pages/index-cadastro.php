@@ -89,7 +89,7 @@
 
                     <p class="text-one-board">Senha</p>
                     <p class="obrigatorio">*</p>
-                    <input type="text" id="password" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required><br><br>
+                    <input type="text" id="senha" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required><br><br>
 
                     <p class="text-one-board">Confirmar Senha</p>
                     <p class="obrigatorio">*</p>

