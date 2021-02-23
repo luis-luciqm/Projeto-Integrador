@@ -73,7 +73,7 @@
 
                 <div class="fadeIn first">
                     <br>
-                    <img class="imagem-login" src="../images/Sem título.png" alt="Imagem de Logo">
+                    <img class="img-thumbnail" src="../images/Sem título.png" alt="Imagem de Logo">
                     <br>
                     <br>
                 </div>

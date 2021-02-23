@@ -637,6 +637,10 @@ textarea {
 #solicitarButton{
     margin-top: 30px !important;
 }
+
+.img-thumbnail{
+    border: none !important;
+}
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */

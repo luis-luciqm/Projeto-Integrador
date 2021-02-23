@@ -61,7 +61,7 @@
                     <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
                     <!--<h2 class="my-5">LOGIN</h2>-->
                     <br>
-                    <img class="imagem-login" src="../images/Sem título.png">
+                    <img class="img-thumbnail" src="../images/Sem título.png">
                     <br>
                     <br>
                 </div>
