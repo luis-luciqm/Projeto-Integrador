@@ -624,6 +624,11 @@ textarea {
     border: 2px solid #A47551;
 }
 
+textarea:hover{
+    border: 2.1px solid #a05c29;
+    transition-duration: 400ms;
+}
+
 #solicitar-imovel{
     width: 200px !important;
     height: 45px !important;
@@ -640,6 +645,13 @@ textarea {
 
 .img-thumbnail{
     border: none !important;
+}
+
+#menu{
+    font-size: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    
 }
 /* #corpo-listagem{
     background-color: #F5FFFA;
