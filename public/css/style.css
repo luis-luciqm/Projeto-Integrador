@@ -632,7 +632,7 @@ textarea:hover{
 #solicitar-imovel{
     width: 200px !important;
     height: 45px !important;
-    margin-left: 550px !important;
+    margin-left: 42% !important;
 }
 
 #trecho{
@@ -650,7 +650,7 @@ textarea:hover{
 #menu{
     font-size: 10px;
     margin-right: 10px;
-    box-sizing: border-box;
+    
     
 }
 /* #corpo-listagem{
