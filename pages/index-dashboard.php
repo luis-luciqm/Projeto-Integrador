@@ -12,6 +12,12 @@
     <link rel="shortcut icon" href="../images/favicon.png" />
 </head>
 <body>
+
+    <?php
+        global $email; 
+        $email = $_POST['emailLogin'];
+    ?>
+
     <header>
         <nav id="navegacao" class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -35,7 +41,17 @@
                             <a class="nav-link" href="#">Comprar Imóvel</a>
                         </li>
                     </ul>
-                    <a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a>
+
+                    <?php
+                        if($email == "l.luis@escolar.ifrn.edu.br"){
+                            echo '<a class="navbar-text href="#">LUIS LUCILANDIO DE QUEIROZ MESQUITA</a>';
+                        }else{
+                            echo '<a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a>';
+                        }
+                    ?>
+
+                    <!-- <a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a> -->
+
                     <!-- Provavelmente mudar essa tag para button -->
                 </div>
             </div>
@@ -43,7 +59,6 @@
     </header>
 
     <?php
-        $email = $_POST['emailLogin'];
         echo "<h4>Seja bem-vindo, " .$email. "! Organize e visualize seus dados.</h4><br>";
     ?>
 
