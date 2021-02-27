@@ -625,7 +625,7 @@ textarea {
 }
 
 textarea:hover{
-    border: 2.1px solid #a05c29;
+    border: 2.3px solid #a05c29;
     transition-duration: 400ms;
 }
 
@@ -650,8 +650,6 @@ textarea:hover{
 #menu{
     font-size: 10px;
     margin-right: 10px;
-    
-    
 }
 /* #corpo-listagem{
     background-color: #F5FFFA;
