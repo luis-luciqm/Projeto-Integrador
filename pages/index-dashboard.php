@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="../index.php">Home</a>
                         </li>
                         
                         <li class="nav-item">
@@ -44,7 +44,7 @@
 
                     <?php
                         if($email == "l.luis@escolar.ifrn.edu.br"){
-                            echo '<a class="navbar-text href="#">LUIS LUCILANDIO DE QUEIROZ MESQUITA</a>';
+                            echo '<b class="navbar-text">LUIS LUCILANDIO DE QUEIROZ MESQUITA</b>';
                         }else{
                             echo '<a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a>';
                         }
