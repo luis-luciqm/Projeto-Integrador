@@ -78,7 +78,7 @@
                     <br>
                 </div>
 
-                <form name="validarLogin" action="redirecionar.php" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
+                <form name="validarLogin" action="index-dashboard.php" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
                     <input type="email" id="email" class="fadeIn second zero-raduis" name="emailLogin" placeholder="Email" required>
                     <input type="text" id="password" class="fadeIn third zero-raduis" name="senhaLogin" placeholder="Senha" minlength="6" required>
                     <div id="formFooter">
