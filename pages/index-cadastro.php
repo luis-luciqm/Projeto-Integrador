@@ -89,10 +89,12 @@
 
                     <p class="text-one-board">Senha</p>
                     <p class="obrigatorio">*</p>
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
                     <input type="text" id="senha" class="fadeIn third zero-raduis" name="senha" placeholder="Senha" minlength="6" required><br><br>
 
                     <p class="text-one-board">Confirmar Senha</p>
                     <p class="obrigatorio">*</p>
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
                     <input type="text" id="password" class="fadeIn third zero-raduis" name="csenha" placeholder="Confirmar Senha" minlength="6" required><br><br>
                     <p id="msgErro"></p>
                    

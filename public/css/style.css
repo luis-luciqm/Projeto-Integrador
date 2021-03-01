@@ -652,7 +652,7 @@ textarea:hover{
     margin-right: 10px;
 }
 
-#pass {
+#password #senha {
     width: 150px;
     padding-right: 20px;
 }
