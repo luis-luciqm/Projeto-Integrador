@@ -95,7 +95,13 @@
 
                     <p class="text-one-board">Selecione uma(s) imagem(s) do seu imóvel</p>
                     <p class="obrigatorio">*</p>
-                    <input type="file" id="inputImagem" name="inputImagem" class="btn btn-sucess" accept="image/png, image/jpeg, image/jpg" maxlength="1024" required multiple/><br>
+                    <!-- <input type="file" id="inputImagem" name="inputImagem" class="btn btn-sucess" accept="image/png, image/jpeg, image/jpg" maxlength="1024" required multiple/><br> -->
+                    
+                    <div class="mb-3">
+                        <input type="file" id="inputImagem" class="form-control" accept="image/png, image/jpeg, image/jpg" maxlength="1024" aria-label="file example" required multiple>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
+                    </div>
+                    
                     <!-- <input type="text" id="imagem" class="fadeIn second zero-raduis" name="imagem" placeholder="R$ 000.000" required><br><br> -->
 
                     <br><p class="text-one-board">Faça uma breve descrição do Imóvel (Opcional)</p>

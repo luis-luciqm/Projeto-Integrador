@@ -651,6 +651,11 @@ textarea:hover{
     font-size: 10px;
     margin-right: 10px;
 }
+
+#inputImagem{
+    margin-left: 5%;
+    /* text-align: center !important; */
+}
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
