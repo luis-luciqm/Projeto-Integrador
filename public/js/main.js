@@ -1,19 +1,5 @@
 // alert('eu funciono aqui hhe');
 
-//function mostrarSenha
-document.getElementById('olho').addEventListener('mousedown', function() {
-    document.getElementById('pass').type = 'text';
-});
-
-document.getElementById('olho').addEventListener('mouseup', function() {
-    document.getElementById('pass').type = 'password';
-});
-
-// Para que o password não fique exposto apos mover a imagem.
-document.getElementById('olho').addEventListener('mousemove', function() {
-    document.getElementById('pass').type = 'password';
-});
-
 function maskCEP(input){
     var tam = input.value.length;
     if(tam == 5) input.value += "-";

@@ -651,19 +651,6 @@ textarea:hover{
     font-size: 10px;
     margin-right: 10px;
 }
-
-#password #senha {
-    width: 150px;
-    padding-right: 20px;
-}
-
-.olho {
-    cursor: pointer;
-    left: 160px;
-    position: absolute;
-    width: 20px;
-}
-
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
