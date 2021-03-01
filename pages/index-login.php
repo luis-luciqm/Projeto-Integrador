@@ -80,6 +80,7 @@
 
                 <form name="validarLogin" action="index-dashboard.php" method="POST" onsubmit="return senhaLoginInvalida();"> <!--action="dashboard.php"-->
                     <input type="email" id="email" class="fadeIn second zero-raduis" name="emailLogin" placeholder="Email" required>
+                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
                     <input type="text" id="password" class="fadeIn third zero-raduis" name="senhaLogin" placeholder="Senha" minlength="6" required>
                     <div id="formFooter">
                         <a class="underlineHover" href="#">Esqueceu a senha?</a>
