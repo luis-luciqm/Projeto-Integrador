@@ -49,10 +49,6 @@
                             echo '<a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a>';
                         }
                     ?>
-
-                    <!-- <a class="navbar-text" href="pages/index-login.php">Entrar ou Cadastrar</a> -->
-
-                    <!-- Provavelmente mudar essa tag para button -->
                 </div>
             </div>
         </nav>
