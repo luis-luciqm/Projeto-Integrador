@@ -145,6 +145,11 @@
     <!-- FIM abrir chamado -->
 
     <!-- Inicio Modal -->
+    <div class="modal" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            
+        </div>
+    </div>
 
     <!-- FIM Modal -->
 
