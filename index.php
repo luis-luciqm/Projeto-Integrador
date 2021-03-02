@@ -144,6 +144,10 @@
     </form>
     <!-- FIM abrir chamado -->
 
+    <!-- Inicio Modal -->
+
+    <!-- FIM Modal -->
+
     <!-- INICIO RODAPE -->
     <footer id="myFooter">
         <div class="container">
