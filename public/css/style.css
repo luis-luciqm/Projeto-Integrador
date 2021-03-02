@@ -70,6 +70,7 @@ nav {
     width: 16rem;
     margin-left: 13.8px;
     float: left;
+    cursor: pointer;
     /* border: 1px solid rgb(109, 109, 109) !important; */
 }
 

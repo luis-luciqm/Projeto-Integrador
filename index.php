@@ -118,7 +118,7 @@
         <hr/>
         <p id="location" class="form-label">Alugueis Próximos a {Localização.do.individuo}</p>
         <?php for($i = 0; $i < 4; $i++){ ?>
-            <div class="card">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <img src="images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                 <div class="card-body">
                     <h5 class="card-title">Apartamento</h5>
