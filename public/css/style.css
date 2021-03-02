@@ -657,6 +657,11 @@ textarea:hover{
     margin-left: 5%;
     /* text-align: center !important; */
 }
+
+#staticBackdropLabel{
+    color: white !important;
+}
+
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
