@@ -129,7 +129,7 @@
                     <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
                 </ul>
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary btn-sm">Telefone</a>
+                    <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" >Telefone</a>
                     <a href="mailto:teste@gmail.com" class="btn btn-secondary btn-sm">Email</a>
                 </div>
             </div>
@@ -143,6 +143,32 @@
         <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
     </form>
     <!-- FIM abrir chamado -->
+
+    <!-- TESTE -->
+    <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!-- TESTE -->
 
     <!-- INICIO RODAPE -->
     <footer id="myFooter">
