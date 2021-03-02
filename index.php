@@ -150,7 +150,10 @@
             <div class="modal-content">
 
                 <div class="modal-header">
-                    
+                    <h5 class="modal-title">Titulo desse Modal aqui</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>X</span>
+                    </button>
                 </div>
 
             </div>
