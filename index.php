@@ -156,13 +156,16 @@
                     </button>
                 </div>
 
-
                 <div class="modal-body">
                     <p>Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
                     Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
                     Teste Teste Teste Teste Teste Teste Teste Teste vTeste Teste Teste Teste Teste Teste Teste Teste 
                     Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
                     Teste Teste Teste Teste Teste Teste Teste Teste s</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Testando</button>
                 </div>
 
             </div>
