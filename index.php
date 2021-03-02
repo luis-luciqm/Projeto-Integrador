@@ -144,36 +144,6 @@
     </form>
     <!-- FIM abrir chamado -->
 
-    <!-- Inicio Modal -->
-    <div class="modal" id="siteModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h5 class="modal-title">Titulo desse Modal aqui</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>X</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <p>Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
-                    Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
-                    Teste Teste Teste Teste Teste Teste Teste Teste vTeste Teste Teste Teste Teste Teste Teste Teste 
-                    Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste Teste 
-                    Teste Teste Teste Teste Teste Teste Teste Teste s</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Testando</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- FIM Modal -->
-
     <!-- INICIO RODAPE -->
     <footer id="myFooter">
         <div class="container">
