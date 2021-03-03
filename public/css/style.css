@@ -669,8 +669,9 @@ textarea:hover{
 
 #imagemModal{
     float: left;
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
+    border-radius: 10px !important;
 }
 
 /* #corpo-listagem{
