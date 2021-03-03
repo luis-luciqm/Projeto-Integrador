@@ -153,6 +153,7 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <img id="imagemModal" src="images/card1.jpg" class="img-thumbnail" alt="Imagem do Imóvel">
                 <p>Provavelmente uma imagem aqui que será mais viavel</p>
                 <p><b>Cidade: </b>Pau dos Ferros/RN</p>
                 <p>Preço, e afins aqui</p>

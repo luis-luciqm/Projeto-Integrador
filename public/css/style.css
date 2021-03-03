@@ -667,6 +667,12 @@ textarea:hover{
     color: white !important;
 }
 
+#imagemModal{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
 /* #corpo-listagem{
     background-color: #F5FFFA;
 } */
