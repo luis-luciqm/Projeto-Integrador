@@ -23,7 +23,7 @@
         <nav id="navegacao" class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
-                <img class="image-logo" src="images/favicon.png" href="index.php" alt="Imagem da logo">
+                <img class="image-logo" src="../images/favicon.png" href="index.php" alt="Imagem da logo">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span id="menu" class="navbar-toggler-icon">MENU</span>

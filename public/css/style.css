@@ -584,7 +584,12 @@ form h2 {
 /* FIM ESTILO TELA LOGIN */
 
 #msgErro {
-    color: rgb(141, 4, 4);
+    color: rgb(255, 4, 4);
+}
+
+#msgErro:hover{
+    font-size: 16.5px;
+    transition-duration: 400ms;
 }
 
 /* Inico Alugueis Disponiveis */
