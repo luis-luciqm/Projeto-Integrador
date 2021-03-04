@@ -121,7 +121,7 @@
             <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <img src="images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
                 <div class="card-body">
-                    <h5 class="card-title">Apartamento</h5>
+                    <b><h5 class="card-title">Apartamento</h5></b>
                     <p class="card-text">Apartamento com 3 quartos, sala de estar, 2 banheiros e cozinha.</p>
                 </div>
                 <ul class="list-group list-group-flush">
