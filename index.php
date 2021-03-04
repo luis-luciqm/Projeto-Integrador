@@ -160,7 +160,7 @@
                     <p><b>Cidade: </b>Pau dos Ferros/RN</p>
                     <p><b>Tipo de Anúncio: </b>Aluguel</p>
                     <p><b>Descrição do Imóvel: </b>Apartamentos disponíveis, próximo ao IFRN Pau dos Ferros: 1 sala, 1 quarto, 1 banheiro.</p>
-                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>
+                    <b>Situação: <p class="alert alert-success">Disponível</p></b>
                     <!-- <p>Preço, e afins aqui</p> -->
                 </div>
             </div>
