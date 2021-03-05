@@ -129,10 +129,7 @@
                     <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
                 </ul>
                 <div class="card-body">
-                    <!-- <a href="#" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Telefone</a> -->
-                    <!-- <a href="mailto:teste@gmail.com" class="btn btn-secondary btn-sm">Email</a> -->
-                    <!-- <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">Telefone</a> -->
-                    <input type="submit" class="fadeIn fourth zero-raduis" value="Ver Imóvel">
+                    <input type="submit" id="botoes-cards" class="fadeIn fourth zero-raduis" value="Ver Imóvel">
                 </div>
             </div>
         <?php } ?>
