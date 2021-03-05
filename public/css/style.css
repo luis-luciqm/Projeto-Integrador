@@ -671,13 +671,13 @@ textarea:hover{
 
 #imagemModal{
     float: left;
-    width: 495px;
-    height: 319px;
+    width: 525px;
+    height: 359px;
     border-radius: 10px !important;
 }
 
 .texto-imagem-modal{
-    margin-left: 66% !important;
+    margin-left: 69% !important;
 }
 
 /* .modal.fade{
