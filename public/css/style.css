@@ -680,6 +680,10 @@ textarea:hover{
     margin-left: 69% !important;
 }
 
+.alert.alert-success{
+    text-align: center;
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
