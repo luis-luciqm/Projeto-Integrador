@@ -671,8 +671,8 @@ textarea:hover{
 
 #imagemModal{
     float: left;
-    width: 65%;
-    height: 65%;
+    width: 495px;
+    height: 319px;
     border-radius: 10px !important;
 }
 
