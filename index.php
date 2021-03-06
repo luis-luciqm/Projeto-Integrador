@@ -168,6 +168,7 @@
                 <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
                 <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                 <div id="botoes-footer">
+                    <!-- <p id="contato">Entre em Contato com <b>Luís Lucilandio</b></p> -->
                     <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
                     <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
                 </div>

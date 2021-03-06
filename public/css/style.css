@@ -694,6 +694,16 @@ textarea:hover{
     /* margin-right: 70px !important; */
 }
 
+/* #contato{
+    text-align: center !important;
+} */
+
+@media (max-width: 500px){
+    .texto-imagem-modal{
+        margin-left: 0% !important; 
+    }
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
