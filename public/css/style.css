@@ -698,7 +698,7 @@ textarea:hover{
     text-align: center !important;
 } */
 
-@media (max-width: 500px){
+@media (max-width: 950px){
     .texto-imagem-modal{
         margin-left: 0% !important; 
     }
