@@ -578,9 +578,9 @@ form h2 {
 }
 
 
-/* input[type=text], input[type=email] {
-  width: 170% !important;
-} */
+input[type=text], input[type=email] {
+  width: 98% !important;
+}
 
 
 /* FIM ESTILO TELA LOGIN */
@@ -713,6 +713,13 @@ textarea:hover{
 @media (max-width: 400px){
     #solicitar-imovel{
         margin-left: 20% !important;
+    }
+}
+
+@media (max-width: 800px){
+    .btn-secondary{
+        /* text-align: center !important; */
+        margin-left: 30% !important;
     }
 }
 
