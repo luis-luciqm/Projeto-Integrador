@@ -65,6 +65,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Preço: $300,000</li>
                     <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
+                    <li class="list-group-item">Tipo: <b>Compra</b></li>
                 </ul>
                 <div class="card-body">
                     <input type="submit" id="botoes-cards" class="fadeIn fourth zero-raduis" value="Ver Imóvel">

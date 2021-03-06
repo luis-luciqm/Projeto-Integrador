@@ -740,6 +740,12 @@ textarea:hover{
     }
 }
 
+@media (max-width: 550px){
+    p.text-one-board{
+        font-size: 14px !important;
+    }
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
