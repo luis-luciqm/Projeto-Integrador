@@ -74,6 +74,13 @@
     </div>
     <!-- FIM Imoveis disponiveis para compra -->
 
+    <!-- Inicio abrir chamado -->
+    <h2 id="solicitarButton">Não encontrou nada que procura? Faça uma solicitação!</h2>
+    <form action="pages/index-solicitar.php" method="POST">
+        <input type="submit" id="solicitar-imovel" class="fadeIn fourth zero-raduis" value="Solicitar Imóvel">
+    </form>
+    <!-- FIM abrir chamado -->
+
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
