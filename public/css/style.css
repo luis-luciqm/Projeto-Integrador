@@ -685,10 +685,13 @@ textarea:hover{
 }
 
 #botoes-footer{
-    display: flex !important;
-    /* margin-right: 30% !important; */
-    /* margin-left: 30% !important; */
-    /* text-align: center !important; */
+    margin-right: 11% !important;
+    margin-left: 13% !important;
+}
+
+.fadeIn.fourth.zero-raduis.botao-footer{
+    width: 250px;
+    /* margin-right: 70px !important; */
 }
 
 /* .modal.fade{
