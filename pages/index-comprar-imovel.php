@@ -53,7 +53,6 @@
     <!-- FIM NAV-BAR -->
 
     <!-- Inicio Imoveis disponiveis para compra -->
-    <!-- <p id="location" class="form-label">Alugueis Próximos a {Localização.do.individuo}</p> -->
     <h4>Imóveis diponíveis para compra.</h4>
     <?php for($i = 0; $i < 8; $i++){ ?>
         <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -72,6 +71,41 @@
         </div>
     <?php } ?>
     <!-- FIM Imoveis disponiveis para compra -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg"> <!-- caso não for necessário esse tamanho, retirar modal-lg -->
+            <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h5 class="modal-title" id="staticBackdropLabel">Apartamento</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="imagem-modal-ap">
+                    <img id="imagemModal" src="../images/card1.jpg" class="img-thumbnail" alt="Imagem do Imóvel">
+                </div>
+                <div class="texto-imagem-modal">
+                    <p><b>Nome do Anunciante: </b>Luis Lucilandio</p>
+                    <p><b>Cidade: </b>Pau dos Ferros/RN</p>
+                    <p><b>Tipo de Anúncio: </b>Aluguel</p>
+                    <p><b>Descrição do Imóvel: </b>Apartamentos disponíveis, próximo ao IFRN Pau dos Ferros: 1 sala, 1 quarto, 1 banheiro.</p>
+                    <p><b>Preço: </b>R$300</p>
+                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                <div id="botoes-footer">
+                    <!-- <p id="contato">Entre em Contato com <b>Luís Lucilandio</b></p> -->
+                    <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="EMAIL">
+                    <input type="submit" class="fadeIn fourth zero-raduis botao-footer" value="TELEFONE">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
 
     <!-- INICIO RODAPE -->
     <footer id="myFooter">
