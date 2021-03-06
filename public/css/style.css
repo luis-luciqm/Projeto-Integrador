@@ -725,7 +725,7 @@ textarea:hover{
 
 @media (max-width: 500px){
     #formContent{
-        width: 340px !important;
+        width: 310px !important;
         /* font-size: 60px !important; */
     }
 
