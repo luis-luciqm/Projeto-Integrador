@@ -723,6 +723,17 @@ textarea:hover{
     }
 }
 
+@media (max-width: 500px){
+    #formContent{
+        width: 340px !important;
+        /* font-size: 60px !important; */
+    }
+
+    #menu{
+        font-size: 15px !important;
+    }
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
