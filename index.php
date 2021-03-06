@@ -161,12 +161,16 @@
                     <p><b>Tipo de Anúncio: </b>Aluguel</p>
                     <p><b>Descrição do Imóvel: </b>Apartamentos disponíveis, próximo ao IFRN Pau dos Ferros: 1 sala, 1 quarto, 1 banheiro.</p>
                     <p><b>Preço: </b>R$300</p>
-                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>->
+                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                <div id="botoes-footer">
+                    <input type="submit" class="fadeIn fourth zero-raduis" value="EMAIL">
+                    <input type="submit" class="fadeIn fourth zero-raduis" value="TELEFONE">
+                </div>
             </div>
             </div>
         </div>

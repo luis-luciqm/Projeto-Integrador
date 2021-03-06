@@ -684,6 +684,13 @@ textarea:hover{
     text-align: center;
 }
 
+#botoes-footer{
+    display: flex !important;
+    /* margin-right: 30% !important; */
+    /* margin-left: 30% !important; */
+    /* text-align: center !important; */
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
