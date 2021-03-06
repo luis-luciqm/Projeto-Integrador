@@ -155,15 +155,13 @@
                 <div class="imagem-modal-ap">
                     <img id="imagemModal" src="images/card1.jpg" class="img-thumbnail" alt="Imagem do Imóvel">
                 </div>
-                <!-- <p>Provavelmente uma imagem aqui que será mais viavel</p> -->
                 <div class="texto-imagem-modal">
                     <p><b>Nome do Anunciante: </b>Luis Lucilandio</p>
                     <p><b>Cidade: </b>Pau dos Ferros/RN</p>
                     <p><b>Tipo de Anúncio: </b>Aluguel</p>
                     <p><b>Descrição do Imóvel: </b>Apartamentos disponíveis, próximo ao IFRN Pau dos Ferros: 1 sala, 1 quarto, 1 banheiro.</p>
-                    <p><b>Preço: </b>R$ 300</p>
-                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>
-                    <!-- <p>Preço, e afins aqui</p> -->
+                    <p><b>Preço: </b>R$300</p>
+                    <p class="alert alert-success"><b>Situação: </b>Disponível</p>->
                 </div>
             </div>
             <div class="modal-footer">
