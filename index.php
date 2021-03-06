@@ -39,7 +39,7 @@
                             <a class="nav-link" href="/pages/index-anunciar-imoveis.php">Anunciar Imóveis</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Comprar Imóvel</a>
+                            <a class="nav-link" href="pages/index-comprar-imovel.php">Comprar Imóvel</a>
                         </li>
                     </ul>
 
