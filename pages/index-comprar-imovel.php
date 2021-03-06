@@ -53,23 +53,25 @@
     <!-- FIM NAV-BAR -->
 
     <!-- Inicio Imoveis disponiveis para compra -->
-    <h4>Imóveis diponíveis para compra.</h4>
-    <?php for($i = 0; $i < 8; $i++){ ?>
-        <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <img src="../images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
-            <div class="card-body">
-                <b><h5 class="card-title">Apartamento</h5></b>
-                <p class="card-text">Apartamento com 3 quartos, sala de estar, 2 banheiros e cozinha.</p>
+    <h4>Imóveis disponíveis para compra.</h4>
+    <div id="cards-compra">
+        <?php for($i = 0; $i < 4; $i++){ ?>
+            <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <img src="../images/card1.jpg" class="card-img-top" alt="imagens Pŕoximos a sua Localização">
+                <div class="card-body">
+                    <b><h5 class="card-title">Apartamento</h5></b>
+                    <p class="card-text">Apartamento com 3 quartos, sala de estar, 2 banheiros e cozinha.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Preço: $300,000</li>
+                    <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
+                </ul>
+                <div class="card-body">
+                    <input type="submit" id="botoes-cards" class="fadeIn fourth zero-raduis" value="Ver Imóvel">
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Preço: $300,000</li>
-                <li class="list-group-item">Local: Praça da Matriz, Pau dos Ferros - RN</li>
-            </ul>
-            <div class="card-body">
-                <input type="submit" id="botoes-cards" class="fadeIn fourth zero-raduis" value="Ver Imóvel">
-            </div>
-        </div>
-    <?php } ?>
+        <?php } ?>
+    </div>
     <!-- FIM Imoveis disponiveis para compra -->
 
     <!-- Modal -->

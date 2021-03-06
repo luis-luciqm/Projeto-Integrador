@@ -694,6 +694,10 @@ textarea:hover{
     /* margin-right: 70px !important; */
 }
 
+#cards-compra{
+    margin: auto !important;
+}
+
 /* #contato{
     text-align: center !important;
 } */
@@ -707,6 +711,7 @@ textarea:hover{
 @media (max-width: 380px){
     .fadeIn.fourth.zero-raduis.botao-footer{
         margin-left: 7% !important;
+        width: 210px !important;
     }
 }
 
