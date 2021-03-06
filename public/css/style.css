@@ -704,6 +704,12 @@ textarea:hover{
     }
 }
 
+@media (max-width: 380px){
+    .fadeIn.fourth.zero-raduis.botao-footer{
+        margin-left: 14% !important;
+    }
+}
+
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
 } */
