@@ -706,7 +706,13 @@ textarea:hover{
 
 @media (max-width: 380px){
     .fadeIn.fourth.zero-raduis.botao-footer{
-        margin-left: 14% !important;
+        margin-left: 7% !important;
+    }
+}
+
+@media (max-width: 400px){
+    #solicitar-imovel{
+        margin-left: 20% !important;
     }
 }
 
