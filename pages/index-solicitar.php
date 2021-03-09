@@ -77,8 +77,8 @@
                     <p class="obrigatorio">*</p>
                     <input type="text" id="cidade" class="fadeIn second zero-raduis" name="cidade" placeholder="Pau dos Ferros/RN" required><br><br>
                     
-                    <br><p class="text-one-board">Faça uma breve descrição do Imóvel que você procura</p>
-                    <p class="obrigatorio">*</p>
+                    <br><p id="description-textarea" class="text-one-board">Faça uma breve descrição do Imóvel que você procura</p>
+                    <p id="obrigatorioo" class="obrigatorio">*</p>
                     <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Exemplo: Busco um apartamento para aluguel; ou: uma casa para comprar com 2 salas, 3 quartos;" required></textarea>
                     <p id="msgErro"></p>
 

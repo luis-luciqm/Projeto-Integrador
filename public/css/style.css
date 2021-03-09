@@ -741,8 +741,9 @@ textarea:hover{
 }
 
 @media (max-width: 550px){
-    p.text-one-board{
-        font-size: 14px !important;
+    p#description-textarea{
+        font-size: 15px !important;
+        text-align: justify !important;
     }
 }
 
