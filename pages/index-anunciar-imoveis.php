@@ -81,7 +81,7 @@
 
                     <input type="radio" id="venda" name="tipo" value="venda">
                     <label for="venda">Venda do Imóvel</label><br>
-                    <input type="radio" id="aluguel" name="tipo" value="aluguel" checked>
+                    <input id="aluguel" type="radio" id="aluguel" name="tipo" value="aluguel" checked>
                     <label for="aluguel">Aluguel do Imóvel</label><br>
 
                     <br><p class="text-one-board">Tipo de Imóvel</p>
