@@ -752,6 +752,11 @@ textarea:hover{
     }
 }
 
+@media (max-width: 400px){
+    .card{
+        margin-left: 35px !important;
+    }
+}
 
 /* .modal.fade{
     font-family: 'Source Serif Pro', serif;
