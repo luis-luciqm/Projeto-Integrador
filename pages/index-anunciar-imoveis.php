@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link href="../public/css/bootstrap.min.css" rel="stylesheet">
     <link href="../public/css/style.css" rel="stylesheet">
-
     <link rel="shortcut icon" href="../images/favicon.png" />
 </head>
 
