@@ -100,22 +100,7 @@
         <!-- FIM CAROUSEL -->
         <br>
         <hr/>
-        <!-- INICIO DA BARRA DE PESQUISA-->
-        <div class="encontrar-imoveis">
-            <form>
-                <p for="exampleInputEmail1" id="pesquisa" class="form-label">Encontre seus Imovéis</p>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Pesquise por casa, imovel, local" aria-describedby="emailHelp">
-
-                </div>
-                <button type="submit" class="btn btn-secondary">Pesquisar</button>
-            </form> <br><br><br>
-        </div>
-        <!-- o cara usar 3 quebras de linha na mesma linha é triste demais -->
-        <!-- FIM DA BARRA DE PESQUISA-->
-
         <!-- INICIO DESTAQUES DE LOCALIZAÇÃO-->
-        <hr/>
         <p id="location" class="form-label">Alugueis Próximos a {Localização.do.individuo}</p>
         <?php for($i = 0; $i < 4; $i++){ ?>
             <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
