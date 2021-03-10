@@ -58,7 +58,7 @@
     <form class="form-search" method="get" id="s" action="/">
         <div class="input-append">
             <input type="text" class="input-medium search-query" name="s" placeholder="Pesquisar por Rua, Cidade, Local, etc.." value="">
-            <button type="submit" class="add-on"><i class="icon-search"></i></button>
+            <button class="btn btn-outline-secondary" type="button">Pesquisar</button>
         </div>
     </form>
 

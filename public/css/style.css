@@ -712,6 +712,11 @@ textarea:hover{
     margin-left: 30% !important;
 }
 
+.add-on{
+    width: 60px;
+    height: 40px;
+}
+
 @media (max-width: 950px){
     .texto-imagem-modal{
         margin-left: 0% !important; 
