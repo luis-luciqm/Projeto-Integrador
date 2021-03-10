@@ -63,7 +63,7 @@
     </form>
 
     <div id="cards-compra">
-        <p id="trecho2">Resultados da busca de (textoDigitado)</p>
+        <h2 id="trecho2">Resultados da busca de (textoDigitado)</h2>
         <div class="container">
             <?php for($i = 0; $i < 8; $i++){ ?>
                 <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
