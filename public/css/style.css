@@ -706,6 +706,12 @@ textarea:hover{
     text-align: center !important;
 } */
 
+.input-medium.search-query{
+    width: 450px !important;
+    height: 40px !important;
+    margin-left: 30% !important;
+}
+
 @media (max-width: 950px){
     .texto-imagem-modal{
         margin-left: 0% !important; 

@@ -53,7 +53,15 @@
     <!-- FIM NAV-BAR -->
 
     <!-- Inicio Imoveis disponiveis para compra -->
-    <h4>Imóveis disponíveis para compra.</h4>
+    <h4>Imóveis Disponíveis para Compra, e Aluguel.</h4>
+
+    <form class="form-search" method="get" id="s" action="/">
+        <div class="input-append">
+            <input type="text" class="input-medium search-query" name="s" placeholder="Pesquisar por Rua, Cidade, Local, etc.." value="">
+            <button type="submit" class="add-on"><i class="icon-search"></i></button>
+        </div>
+    </form>
+
     <div id="cards-compra">
         <?php for($i = 0; $i < 4; $i++){ ?>
             <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
