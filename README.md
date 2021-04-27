@@ -97,6 +97,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## Running CodeIgniter Tests
 
 Information on running the CodeIgniter test suite can be found in the [README.md](tests/README.md) file in the tests directory.
-# small-site-web-2021
-# small-site-web-2021
-# small-site-web-2021
+# Interior Imóveis é uma plataforma Open Source de Aluguel e Venda de Imóveis focado no Interior do Rio Grande do Norte.
